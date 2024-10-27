@@ -38,8 +38,8 @@ Originally, I had used a single YouTube playlist to save songs, but this had som
 
 ## Notes & Observations
 
-- Tagging is a way to group songs by genre or mood, such as “80s” or “Unhinged”. Any song can be given any number of tags
-- Playlists are an additional feature designed to create associations between songs that could be listened to together, but don’t have a clear theme that groups them - it is a manual alternative of what YouTube or Spotify does when it suggests further songs you usually listen to when
+- Tagging is a way to group songs by genre or mood, such as “80s” or “Unhinged”. Any song can be given any number of tags.
+- Playlists are an additional feature designed to create associations between songs that could be listened to together, but don’t have a clear theme that groups them - it is a manual alternative of what YouTube or Spotify does when it suggests further songs you usually listen to when listening to a given song.
 - The notes stored on a song would probably be better stored in a non-relational way, which would require either multiple databases (one relational, one non-relational) or a database solution which supports both structured and unstructured data, such as Azure Cosmos DB - this may become especially helpful if song lyrics were also to be stored.
 - In the future, the goal would be to be able to add songs to a playlist through this application, then have them play somehow, either pulling them from YouTube, or by opening a playlist or album open in YouTube with all of the songs queued up.
 - A browser extension might be a good way to interface with this program, as it would allow for interaction between the page I’m listening to songs on: it could track the song I’m listening to and use the sequence I play songs to create automatic associations between songs I often pay together. Plus it might be able to “plug into” the website and to make actions such as queuing songs easier.
