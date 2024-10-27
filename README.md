@@ -38,8 +38,7 @@ Originally, I had used a single YouTube playlist to save songs, but this had som
 
 ## Notes & Observations
 
-- Since I will be storing other types of songs, such as those from musicals or collections of theme music, need to decide how best to group these: albums is an obvious way to do it, but albums require defining an order, something that might not be suitable for collections of theme songs. Could have a “set” of music?
-- Tagging is a way to group songs by genre or mood, such as “80s” or “Unhinged”. Any song can be given any number of tags,
+- Tagging is a way to group songs by genre or mood, such as “80s” or “Unhinged”. Any song can be given any number of tags
 - Playlists are an additional feature designed to create associations between songs that could be listened to together, but don’t have a clear theme that groups them - it is a manual alternative of what YouTube or Spotify does when it suggests further songs you usually listen to when
 - The notes stored on a song would probably be better stored in a non-relational way, which would require either multiple databases (one relational, one non-relational) or a database solution which supports both structured and unstructured data, such as Azure Cosmos DB - this may become especially helpful if song lyrics were also to be stored.
 - In the future, the goal would be to be able to add songs to a playlist through this application, then have them play somehow, either pulling them from YouTube, or by opening a playlist or album open in YouTube with all of the songs queued up.
